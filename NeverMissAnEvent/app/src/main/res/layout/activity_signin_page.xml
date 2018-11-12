@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.TheEventWelfare.EventConnects.SigninPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/logosignin"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Event Connects"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="20dp"
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/logosignin"
+                android:layout_marginTop="40dp"
+                android:hint="E-mail Id"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:ems="10"
+                android:id="@+id/usernameinput"
+                android:inputType="textEmailAddress"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usernameinput"
+                android:textColor="#ffffff"
+                android:id="@+id/passwordinput"
+                android:layout_centerHorizontal="true"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:ems="10"
+                android:inputType="textPassword"/>
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:text="Sign In"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/passwordinput"
+                android:textColor="#ffffff"
+                android:background="@drawable/loginbuttonproperties"
+                android:id="@+id/signinbutton"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signinbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="No Account Yet? Create One"
+                android:id="@+id/createidtext"
+                android:textColor="#ffffff"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/createidtext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Forgot Password ?"
+                android:id="@+id/forgotpaswd"
+                android:textColor="#ffffff"
+                android:clickable="true"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

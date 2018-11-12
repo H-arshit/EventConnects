@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Filter"
+        android:orderInCategory="1"
+        android:id="@+id/myfilter"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Registered Competitions"
+        android:orderInCategory="2"
+        android:id="@+id/mycomp"
+        app:showAsAction="never"/>
+    <item
+        android:title="Account Settings"
+        android:orderInCategory="3"
+        android:id="@+id/accountsettings"
+        app:showAsAction="never"/>
+    <item android:id="@+id/search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"/>
+    <item android:id="@+id/notify"
+       android:title="Notification"
+        app:showAsAction="always"
+        android:icon="@drawable/notification"
+        />
+</menu>

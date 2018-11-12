@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground"
+    tools:context="com.TheEventWelfare.EventConnects.AccountSettings">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainheading"
+            android:text="EDIT PROFILE"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/mainheading"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:id="@+id/displineset"/>
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/emailidfet"
+            android:layout_below="@+id/displineset">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email-id"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:id="@+id/settingemail"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namefet"
+            android:layout_below="@+id/emailidfet">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/settingname"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactfet"
+            android:layout_below="@+id/namefet">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact Number"
+                android:inputType="phone"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/settingcontact"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/oldpaswdfet"
+            android:layout_below="@+id/contactfet">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Old Password"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/settingpasswordold"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paswdfet"
+            android:layout_below="@+id/oldpaswdfet">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="New Password"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/settingpassword"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conformfet"
+            android:layout_below="@+id/paswdfet">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm New Password"
+                android:inputType="textPassword"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:id="@+id/settingconfirmpassword"/>
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/conformfet"
+            android:text="UPDATE"
+            android:textColor="#ffffff"
+            android:id="@+id/updateprofilebutton"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/loginbuttonproperties"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

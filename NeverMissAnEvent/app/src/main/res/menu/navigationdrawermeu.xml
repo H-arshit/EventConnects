@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="Workshop">
+        <menu>
+            <item
+                android:id="@+id/eventnews"
+                android:title="@string/events_news"
+                android:icon="@drawable/eventnews"
+                />
+            <item
+                android:id="@+id/registerworkshop"
+                android:title="@string/register_workshop"
+                android:icon="@drawable/register_icon"
+                />
+
+            <item
+                android:id="@+id/organsie"
+                android:title="@string/organise"
+                android:icon="@drawable/org_icon"
+                />
+            <item android:id="@+id/savedworkshop"
+                android:title="@string/saved"
+                android:icon="@drawable/saved_workshop"/>
+        </menu>
+    </item>
+    <!--<item android:title="Fest"-->
+        <!--android:id="@+id/festdata"-->
+        <!--android:icon="@drawable/fest"-->
+        <!--/>-->
+    <!--<item android:title="Competitions"-->
+        <!--android:id="@+id/competititons"-->
+        <!--android:icon="@drawable/competition" -->
+        <!--/>-->
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/Settingforapp"
+                android:title="@string/settings"
+                android:icon="@drawable/settings"
+                />
+            <item
+                android:id="@+id/reportproblem"
+                android:title="Report Fraud"
+                android:icon="@drawable/reportproblem"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="@string/about"
+                android:icon="@drawable/abt_icon"
+                />
+            <item
+                android:id="@+id/feedback"
+                android:title="@string/feedback"
+                android:icon="@drawable/feedback"
+                />
+            <!--<item-->
+                <!--android:id="@+id/shareapp"-->
+                <!--android:title="@string/share_app"-->
+                <!--android:icon="@drawable/share_app"-->
+                <!--/>-->
+            <item
+                android:id="@+id/logout"
+                android:title="@string/Logout"
+                android:icon="@drawable/logout"
+                />
+        </menu>
+    </item>
+
+
+</menu>

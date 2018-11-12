@@ -1,0 +1,190 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground"
+    tools:context="com.TheEventWelfare.EventConnects.ViewSelectedCardRegister"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/registertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="true"
+                android:textColor="#efebeb"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <View
+                android:id="@+id/displine"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/registertitle"
+                android:layout_marginTop="5dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:id="@+id/registertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/displine"
+
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerVenue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registertype"
+
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerVenue"
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registertime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerPrice"
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registertime"
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerorg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerdate"
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registercont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerorg"
+                android:layout_marginTop="20dp"
+                android:autoLink="phone"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registeremail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registercont"
+                android:layout_marginTop="20dp"
+                android:autoLink="email"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registeremail"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/registerdescript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registerlink"
+                android:layout_marginTop="20dp"
+                android:textColor="#efebeb"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/linkbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imagedownloaded"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:background="@drawable/otherbutton"
+                android:text="Book Now"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/callbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linkbutton"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:background="@drawable/otherbutton"
+                android:text="Phone"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/imagebutton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/registerdescript"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="25dp"
+                android:background="@drawable/otherbutton"
+                android:text="Download Poster"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imagedownloaded"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone"
+                android:layout_below="@+id/imagebutton"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

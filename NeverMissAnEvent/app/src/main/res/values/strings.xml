@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Event Connects</string>
+
+
+    <!-- Navigation Drawer Menu List-->
+    <string name="events_news">Event News</string>
+    <string name="register_workshop">Book Your Seat</string>
+    <string name="organise">Advertise Workshop</string>
+    <string name="saved">Saved Workshop</string>
+
+    <string name="fest_news">Fests</string>
+
+    <string name="competitions">Competitions</string>
+
+    <string name="settings">Edit Profile</string>
+    <string name="about">About</string>
+    <string name="share_app">Share App</string>
+    <string name="feedback">Feedback</string>
+    <string name="Logout">Logout</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

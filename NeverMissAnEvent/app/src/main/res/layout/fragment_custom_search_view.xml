@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayoutforsearch"
+    android:background="@drawable/custombackground"
+    tools:context="com.TheEventWelfare.EventConnects.CustomSearchViewFrag">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/customtoolbar"
+        />
+
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/finalbackbutton"
+        android:id="@+id/backbuttonsearch"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/backbuttonsearch"
+        android:layout_marginRight="15dp"
+        android:id="@+id/searchtext"
+        android:hint="Search By Name Or Place"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/search"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/searchtext"
+        android:id="@+id/finalsearchbutton"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myrecyclerviewsearch"
+        android:layout_below="@+id/customtoolbar"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

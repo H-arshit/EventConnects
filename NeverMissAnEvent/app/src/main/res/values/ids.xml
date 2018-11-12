@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loader_id" type="id"/>
+    <item name="loder_id_upcoming" type="id"/>
+    <item name="loader_id_pastpic" type="id"/>
+    <item name="loader_id_companyname" type="id"/>
+    <item name="loader_id_thoughts" type="id"/>
+    <item name="sharecard_id" type="id"/>
+    <item name="deletesaved_card" type="id"/>
+    <item name="loaderforlogin" type="id"/>
+    <item name="loader_for_createid" type="id"/>
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+    <item name="loader_settings" type="id"/>
+    <item name="loader_resetpassword" type="id"/>
+    <item name="loader_for_fraud" type="id"/>
+    <item name="loader_for_feedback" type="id"/>
+    <item name="loader_for_advertisement_request" type="id"/>
+    <item name="loader_for_custom_search" type="id"/>
+    <item name="loader_for_image_convert_upcom" type="id"/>
+
+</resources>

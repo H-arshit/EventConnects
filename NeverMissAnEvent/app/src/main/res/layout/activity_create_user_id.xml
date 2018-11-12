@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.TheEventWelfare.EventConnects.CreateUserId">
+
+
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Event Connects"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColorHint="#f4eded"
+            android:layout_marginTop="15dp"
+            android:hint="Name"
+            android:layout_below="@+id/logo"
+            android:textColor="#fcfcfc"
+            android:textSize="20sp"
+            android:ems="10"
+            android:id="@+id/createidfirstname"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createidfirstname"
+            android:id="@+id/createphoneno"
+            android:textColorHint="#f4eded"
+            android:ems="10"
+            android:textColor="#fcfcfc"
+            android:hint="Phone "
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:inputType="phone"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createphoneno"
+            android:id="@+id/createduserid"
+            android:textColorHint="#f4eded"
+            android:ems="10"
+            android:textColor="#fcfcfc"
+            android:hint="E-mail Id"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:textSize="20sp"
+            android:textColor="#fcfcfc"
+            android:textColorHint="#f4eded"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/createduserid"
+            android:id="@+id/createduserpassword"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Re-enter Password"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:textColor="#fcfcfc"
+            android:textColorHint="#f4eded"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:layout_below="@+id/createduserpassword"
+            android:id="@+id/reenteredpassword"
+            />
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/reenteredpassword"
+            android:text="JOIN NOW"
+            android:background="@drawable/loginbuttonproperties"
+            android:textColor="#fcfcfc"
+            android:id="@+id/createidbutton"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createidbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Already Registered ? Click Here"
+            android:id="@+id/alreadyregistered"
+            android:textColor="#ffffff"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+</ScrollView>
+
+</FrameLayout>
